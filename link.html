@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lynx link</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #FAFAFA;
+            color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+        }
+
+        .link {
+            position: relative;
+        }
+
+        .link .sent {
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            text-align: center;
+            top: 0;
+            width: 70px;
+        }
+
+        .link .sent .person {
+            background: url(img/person.jpg) center center;
+            background-size: cover;
+            border-radius: 500px;
+            height: 50px;
+            margin: auto;
+            margin-top: 5px;
+            width: 50px;
+        }
+
+        .link .sent .time {
+            color: rgba(0, 0, 0, 0.5);
+            font-size: 11px;
+            line-height: 13px;
+            margin-top: 4px;
+        }
+
+        .link .content {
+            margin-left: 70px; /* same as .sent width */
+            position: relative;
+        }
+
+        .link .content .site {
+            border-radius: 3px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+            height: 160px;
+            position: relative;
+        }
+
+        .link .content .site .text {
+            height: 100%;
+            margin-right: 160px; /* same as .image width */
+            padding: 5px;
+            position: relative;
+        }
+
+        .link .content .site .text .title {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 32px;
+            height: 32px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .link .content .site .text .body {
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        .link .content .site .text .url {
+            bottom: 5px;
+            font-size: 12px;
+            height: 15px;
+            left: 5px;
+            line-height: 15px;
+            overflow: hidden;
+            position: absolute;
+            right: 5px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+
+            background-color: red;
+        }
+
+        .link .content .site .image {
+            background: url(img/cat.jpg) center center;
+            background-size: cover;
+            bottom: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 160px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="link">
+    <div class="sent">
+        <div class="person" title="Stanley Yelnats"></div>
+        <div class="time">3:30pm<br>Feb 11<br>2015</div>
+    </div>
+    <div class="content">
+        <div class="site">
+            <div class="text">
+                <div class="title">
+                    Studies show things happen
+                </div>
+                <div class="body">
+                   A new study shows that things happen when people do stuff and it's pretty cool to think about about what but link the who what why when where how
+                </div>
+                <div class="url">
+                    http://newyorktimes.com/studies-show-that-thing-happen-yo-whaaaaat
+                </div>
+            </div>
+            <div class="image"></div>
+        </div>
+        <div class="note">
+            Hey Bob I saw this article and thought of your face because words come out of it.
+        </div>
+        <div class="categories">
+            <span class="category">articles</span>
+            <span class="category">studies</span>
+            <span class="category">things</span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
