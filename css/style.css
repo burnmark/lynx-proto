@@ -39,11 +39,18 @@ body {
 
 .person {
    /*background: url(img/person.jpg) center center;*/
-   background-size: cover;
+   /*background-size: cover;*/
    border-radius: 500px;
    height: 50px;
    margin: auto;
    margin-top: 5px;
-   width: 50px;
+   width: 50px;   
+}
+
+.panel .person {
+	margin: none;
+	display: inline-block;
+	margin-right: 3px;
+	margin-bottom: 5px;
 }
 
