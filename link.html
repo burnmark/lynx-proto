@@ -56,14 +56,16 @@
         .link .content .site {
             border-radius: 3px;
             box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
-            height: 160px;
+            height: 120px;
+            margin-bottom: 8px;
+            overflow: hidden;
             position: relative;
         }
 
         .link .content .site .text {
             height: 100%;
-            margin-right: 160px; /* same as .image width */
-            padding: 5px;
+            margin-right: 120px; /* same as .image width */
+            padding: 5px 8px;
             position: relative;
         }
 
@@ -84,17 +86,16 @@
 
         .link .content .site .text .url {
             bottom: 5px;
+            color: rgba(0, 0, 0, 0.5);
             font-size: 12px;
             height: 15px;
-            left: 5px;
+            left: 8px;
             line-height: 15px;
             overflow: hidden;
             position: absolute;
-            right: 5px;
+            right: 8px;
             text-overflow: ellipsis;
             white-space: nowrap;
-
-            background-color: red;
         }
 
         .link .content .site .image {
@@ -104,7 +105,17 @@
             position: absolute;
             right: 0;
             top: 0;
-            width: 160px;
+            width: 120px;
+        }
+
+        .link .content .note {
+            margin-bottom: 4px;
+            font-size: 16px;
+            line-height: 17px;
+        }
+
+        .link .content .categories {
+
         }
 
     </style>
